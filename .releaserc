@@ -33,7 +33,7 @@
         ],
         "@semantic-release/git"
     ],
-    "preset": "conventionalcommits",
+    "preset": "angular",
     "presetConfig": {
         "types": [
             {
