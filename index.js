@@ -32,6 +32,7 @@ try {
       // Store stdout and stderr to use later instead of writing to `process.stdout` and `process.stderr`
       stdout: stdoutBuffer,
       stderr: stderrBuffer,
+      
     }
   );
 
