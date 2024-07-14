@@ -6,8 +6,6 @@ on:
       - next
       - alpha
       - beta
-      - 1.x
-      - 2.x
 
 permissions:
   contents: read
