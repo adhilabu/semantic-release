@@ -7,4 +7,5 @@ func main() {
 	fmt.Println("Chore :::::!")
 	fmt.Println("Merge request")
 	fmt.Println("Testing alpha branch")
+	fmt.Println("Testing alpha branch : 2")
 }
