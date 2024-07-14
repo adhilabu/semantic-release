@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - main # or main
+      - next # or main
+      - alpha # or main
+      - beta # or main
+      - 1.x # or main
+      - 2.x # or main
 
 permissions:
   contents: read # for checkout
