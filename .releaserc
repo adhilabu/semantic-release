@@ -2,6 +2,23 @@
     "release": {
         "branches": [
             {
+                "name": "main"
+            },
+            {
+                "name": "next",
+                "channel": "next"
+            },
+            {
+                "name": "alpha",
+                "channel": "alpha",
+                "prerelease": true
+            },
+            {
+                "name": "beta",
+                "channel": "beta",
+                "prerelease": true
+            },
+            {
                 "name": "1.x",
                 "range": "1.x",
                 "channel": "1.x"
@@ -11,13 +28,6 @@
                 "range": "2.x",
                 "channel": "2.x"
             },
-            {
-                "name": "main"
-            },
-            {
-                "name": "next",
-                "channel": "next"
-            }
         ]
     },
     "plugins": [
