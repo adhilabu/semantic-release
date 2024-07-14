@@ -2,28 +2,6 @@
   "name": "semantic-version-learn",
   "version": "0.1.0",
   "description": "A description of your package",
-  "release": {
-    "branches": [
-      { "name": "1.x", "range": "1.x", "channel": "1.x" },
-      { "name": "2.x", "range": "2.x", "channel": "2.x" },
-      { "name": "main" },
-      { "name": "next", "channel": "next" }
-    ]
-  },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/github",
-      {
-        "assets": [
-          "dist/**"
-        ]
-      }
-    ],
-    "@semantic-release/git"
-  ],
-  "preset": "angular",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1"
