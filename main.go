@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("Testing alpha branch : 2")
 	fmt.Println("Added braking change alpha branch : 2")
 	fmt.Println("Added incompatible braking changes : 2")
+	fmt.Println("Added incompatible braking changes : 3")
 }
